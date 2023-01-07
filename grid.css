@@ -39,7 +39,8 @@ body {
 }
 
 .item:nth-child(2) {
-  height: 200px;
+  height: 100px;
   width: 100px;
-  align-self: center;
+  align-self: flex-end;
+  justify-self: end;
 }
