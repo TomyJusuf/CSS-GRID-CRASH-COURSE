@@ -15,6 +15,8 @@ body {
   max-width: 960px;
   margin: 100px auto;
   padding: 10px;
+  display: grid;
+  grid-template-columns: 100px 200px 300px;
 }
 
 .item {
