@@ -38,9 +38,8 @@ body {
   border: skyblue 1px solid;
 }
 
-.item:nth-child(2) {
-  height: 100px;
-  width: 100px;
-  align-self: flex-end;
-  justify-self: end;
+.item:nth-child(1) {
+  background-color: #000;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
