@@ -7,6 +7,12 @@ body {
   font-family: sans;
   font-size: 16px;
   height: 100vh;
+
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav content sidebar"
+    "nav footer footer";
 }
 
 header,
@@ -18,4 +24,20 @@ main {
   color: #fff;
   padding: 20px;
   border: skyblue 1px solid;
+}
+
+header {
+  grid-area: header;
+}
+nav {
+  grid-area: nav;
+}
+main {
+  grid-area: content;
+}
+aside {
+  grid-area: sidebar;
+}
+footer {
+  grid-area: footer;
 }
