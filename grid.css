@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-.item {
+body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -15,4 +15,12 @@
   max-width: 960px;
   margin: 100px auto;
   padding: 10px;
+}
+
+.item {
+  background-color: steelblue;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
 }
