@@ -38,9 +38,17 @@ body {
   border: skyblue 1px solid;
 }
 
-.item:nth-child(1) {
+/* .item:nth-child(1) {
   background-color: #000;
-  /* grid-column-start: 1;
-  grid-column-end: 3; */
-  grid-column: 1/4;
+  grid-column: 2/4;
 }
+
+.item:nth-child(3) {
+  background-color: #333;
+  grid-row: 2/4;
+}
+
+.item:nth-child(4) {
+  background-color: #333;
+  grid-column: 2/4;
+} */
