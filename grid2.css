@@ -8,3 +8,14 @@ body {
   font-size: 16px;
   height: 100vh;
 }
+
+header,
+footer,
+aside,
+nav,
+main {
+  background-color: steelblue;
+  color: #fff;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
